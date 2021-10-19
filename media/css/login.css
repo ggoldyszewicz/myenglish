@@ -1,0 +1,66 @@
+.loginBox 
+{
+    width:340px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top:-133px;
+    margin-left:-150px;
+    background:#F9F9F9;
+    border:1px solid #CCC;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -webkit-box-shadow:0 1px 6px rgba(67,101,139,0.35);
+    -moz-box-shadow:0 1px 6px rgba(67,101,139,0.35);
+    box-shadow:0 1px 6px rgba(67,101,139,0.35);
+    
+}
+
+.loginBox .loginHead 
+{
+    background:url(../img/backgrounds/header.jpg) left top repeat-x;
+    margin-bottom:10px;
+    -moz-border-top-left-radius:3px;
+    -webkit-border-top-left-radius:3px;
+    border-top-left-radius:3px;
+    -moz-border-top-right-radius:3px;
+    -webkit-border-top-right-radius:3px;
+    border-top-right-radius:3px;
+    padding:9px 10px 10px;
+    color: #FFF;
+}
+
+.loginBox .control-group 
+{
+    margin-bottom:10px;
+    padding:0 20px;
+}
+
+.loginBox .control-group label 
+{
+    font-size:12px;
+}
+
+.loginBox .form-actions 
+{
+    margin:0;
+    padding:10px 20px;
+}
+
+.loginBox label.checkbox 
+{
+    margin-left:0;
+    cursor:pointer;
+    padding:0;
+}
+
+.loginBox label.checkbox .checker 
+{
+    margin-top:-2px;
+}
+
+.loginBox input[type="text"],.loginBox input[type="password"] 
+{
+    width:286px;
+}

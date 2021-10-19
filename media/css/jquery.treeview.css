@@ -1,0 +1,239 @@
+
+pre, code {
+    font-size: 12px;
+}
+
+pre {
+    width: 100%;
+    overflow: auto;
+}
+
+small {
+    font-size: 90%;
+}
+
+small code {
+    font-size: 11px;
+}
+
+.placeholder {
+    outline: 1px dashed #4183C4;
+    /*-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: -1px;*/
+}
+
+.mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+ol.sortable, ol.sortable ol {
+    margin: 0 0 0 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol.sortable {
+    margin: 0;
+}
+
+.sortable li {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+
+
+.sortable li div.box  {
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    padding: 6px;
+    margin: 0;
+    margin-bottom: 5px;
+    
+}
+
+.sortable li div.box{
+    background: #ffeca2;
+    border-left: 12px solid #FFD324;
+}
+
+.sortable li div.box a, .sortable li div.box .disclose span{
+    color: #002a80;
+}
+
+.sortable li div.box a{
+    text-decoration: none;
+}
+
+.sortable li div.box a:hover{
+    text-decoration: underline;
+}
+
+.sortable li div.own{
+    background: #a3baff;
+    border-left: 12px solid #3366FF;
+}
+
+.sortable li.active div{
+    background: #FFF;
+}
+
+.sortable li.active li div.box, .sortable li.active li div{
+    background: #ffeca2;
+}
+
+.sortable li.active li div.own, .sortable li.active li div.own div{
+    background: #a3baff;
+}
+
+.menus_left .sortable li .box:hover{
+    background: #FFF;
+}
+
+.sortable li div.own a{
+    
+}
+
+.handle{
+    background: url("../gfx/draggable.png") no-repeat scroll 0px 1px transparent!important;
+    height: 13px;
+    border: 0!important;
+    margin: 2px 0.5em;
+    padding: 0.42em 0.5em;
+    width: 13px;
+    float: right;
+    padding: 0!important;
+    padding: 0!important;
+    cursor: move;
+
+}
+
+.del{
+    border: 0!important;
+    padding: 0!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    float: right;
+
+}
+
+.mod{
+    float: right;
+}
+
+a.edit{
+    float: right;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+.sortable li div{
+    _margin: 0 0 5px 0;
+}
+
+.menu .content{
+    display: inline-block;
+    margin-left: 0!important;
+    padding-top: 0!important;
+}
+
+.sortable li.mjs-nestedSortable-branch div {
+
+}
+
+.sortable li.mjs-nestedSortable-leaf div {
+
+}
+
+li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+    background: #fafafa;
+}
+
+.disclose {
+    cursor: pointer;
+    width: 10px;
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-branch > div > .disclose {
+    display: inline-block;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > div > .disclose > span:before {
+    content: '+ ';
+}
+
+.sortable li.mjs-nestedSortable-expanded > div > .disclose > span:before {
+    content: '- ';
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: .2em;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 1em 0 .3em;;
+}
+
+ol, ul, pre, form {
+    _margin-top: 0;
+    _margin-bottom: 1em;
+}
+
+dl {
+    margin: 0;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+}
+
+code {
+    background: #e5e5e5;
+}
+
+.ui-sortable input {
+    vertical-align: text-bottom;
+}
+
+.notice {
+    color: #c33;
+}
+
+.tree-box-content{
+    float: left; 
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #005580;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 200px;
+}
